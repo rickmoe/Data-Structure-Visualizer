@@ -23,24 +23,24 @@
 }
 
 nav {
+  background-color: var(--color-highlight);
   height: 2rem;
   width: 100%;
   font-size: 1.2rem;
+  
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--color-highlight);
-}
-nav ul {
-  height: 100%;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1.3rem;
   padding: 0 1rem;
 }
-nav ul li {
-  list-style-type: none;
+nav a {
+  text-decoration: none;
+  color: inherit;
 }
 
 main {
