@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --color-primary: #121417;
-  --color-secondary: #bfc3c8;
-  --color-highlight: #32364a;
-  --color-highlight2: #52668a;
+  --blue-L5: hsl(236, 85%, 5%);
+  --blue-L30: hsl(236, 85%, 30%);
+  --blue-L50: hsl(236, 85%, 50%);
+  --blue-L95: hsl(236, 85%, 95%);
+  --blue-lowSat-L30: hsl(236, 60%, 30%);
+  --blue-lowSat-L60: hsl(236, 60%, 60%);
 
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -21,10 +23,15 @@
 #root {
   height: 100vh;
 
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--blue-L5);
+  color: var(--blue-L95);
 }
 
 main {
   margin-top: var(--nav-height);
+  padding: 0 10%;
+}
+main h1 {
+  text-align: center;
+  font-size: 3rem;
 }

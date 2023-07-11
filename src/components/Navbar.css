@@ -1,10 +1,10 @@
 nav {
-  background-color: var(--color-highlight);
+  background-color: var(--blue-lowSat-L30);
   height: var(--nav-height);
   width: 100%;
   font-size: 2rem;
   
-  padding: 0.7rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,9 +12,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 1.3rem;
 }
 nav a {
+  padding: 0 0.2rem;
+  border-radius: 0.3rem;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -27,13 +28,10 @@ nav ul {
   gap: 0.5rem;
   font-size: 1.2rem;
 }
-nav ul a {
-  padding: 0 0.2rem;
-}
 nav ul .active {
-  background-color: var(--color-highlight2);
+  background-color: var(--blue-lowSat-L60);
 }
 nav a:hover {
-  color: var(--color-highlight2);
-  background-color: var(--color-secondary);
+  color: var(--blue-L30);
+  background-color: var(--blue-L95);
 }
