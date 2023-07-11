@@ -1,0 +1,39 @@
+nav {
+  background-color: var(--color-highlight);
+  height: var(--nav-height);
+  width: 100%;
+  font-size: 2rem;
+  
+  padding: 0.7rem 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1.3rem;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+nav ul a {
+  padding: 0 0.2rem;
+}
+nav ul .active {
+  background-color: var(--color-highlight2);
+}
+nav a:hover {
+  color: var(--color-highlight2);
+  background-color: var(--color-secondary);
+}
